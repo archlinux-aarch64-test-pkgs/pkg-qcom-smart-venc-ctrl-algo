@@ -1,13 +1,14 @@
 pkgbase = qcom-smart-venc-ctrl-algo
 	pkgdesc = Qualcomm prebuilt binaries for the Smart Video Encoder Control Algorithm, used to dynamically optimize video encoding parameters and performance.
-	pkgver = 1.0
+	pkgver = 1.0.2
 	pkgrel = 1
 	url = https://qartifactory-edge.qualcomm.com
 	arch = aarch64
 	license = LicenseRef-Qualcomm-Proprietary
+	depends = glib2
 	depends = qcom-fastcv-binaries
 	options = !strip
-	source = https://qartifactory-edge.qualcomm.com/artifactory/qsc_releases/software/chip/component/iot-core-algs.lnx.0.0/260112.1/prebuilt_yocto/qcom-video-ctrl_1.0_armv8-2a.tar.gz
-	sha256sums = 9e6b8b6e0b013b6126fe6ab0776591347f0f66fd7153f4afa8e100b9d64af308
+	source = https://qartifactory-edge.qualcomm.com/artifactory/qsc_releases/software/chip/component/iot-core-algs.lnx.0.0/260814/prebuilt_yocto/qcom-video-ctrl_1.0.2_armv8a.tar.gz
+	sha256sums = 6d4eec53be35c145231b5e38fe38561753dda124eec14470adf77822f6dea8f3
 
 pkgname = qcom-smart-venc-ctrl-algo
